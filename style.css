@@ -30,4 +30,6 @@ mark {
   padding-right: 40%;
   padding-top: 155px;
   padding-bottom: 155px;
+  background-color: black;
+  opacity: 0;
 }
