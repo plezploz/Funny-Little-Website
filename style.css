@@ -2,9 +2,10 @@ body {
 	background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/08/India-Flag-hed-796x419.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
-  background-position: 40%;
+    background-position: 40%;
 	margin: 0;
 	position: center;
+    background-attachment: fixed;
 }
 
 .title {
@@ -22,7 +23,8 @@ mark {
   padding-left: 40%;
   padding-right: 40%;
   width: 255px;
-  length: 255px;
+  height: 255px;
+  border-radius: 50%;
 }
 
 .indexParagraph {
@@ -30,6 +32,16 @@ mark {
   padding-right: 40%;
   padding-top: 155px;
   padding-bottom: 155px;
-  background-color: black;
-  opacity: 0;
+  background-color:rgba(0, 0, 0, 0.9);
+  color: white;
+}
+
+.tools {
+  position: center;
+  padding-left: 40%;
+  padding-right: 40%;
+  padding-top: 155px;
+  padding-bottom: 155px;
+  background-color:rgba(255, 255, 255, 0.9);
+  color: black;
 }
