@@ -29,6 +29,7 @@ mark {
 }
 
 .indexParagraph {
+  overflow: auto;
   margin: 0 auto;
   text-align: center;
   padding-top: 10%;
@@ -48,4 +49,24 @@ mark {
 
 .homebutton {
     font-size: 50px;
+}
+
+.toolsParagraph {
+  overflow: auto;
+  margin: 0 auto;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  background-color:rgba(0, 0, 0, 0.9);
+  color: white;
+}
+
+#toolsWords {
+  text-align: center;
+}
+
+.schoolzonebutton {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  font-size: 50px;
 }
